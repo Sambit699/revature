@@ -2,7 +2,7 @@
 var4.add(77)
 print(var4)'''
 
-def main(num):
+'''def main(num):
     var=1
     return num*var
-print(var)
+print(var)'''

@@ -42,4 +42,11 @@ print(cm['b'])
 print(cm['c'])
 #regural expresion ---re
 import re
+text="Hello,mu num is 123-456-7976"
+pattern=r"\d{3}-\d{3}-\d{4}"
+match=re.search(pattern,text)
+
+if match:
+    print(f"Found:{match.group()}")
+    print(f"Position:{match.start()}--{match.end()}")
 
